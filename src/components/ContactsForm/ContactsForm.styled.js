@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { Formik, Form, Field } from 'formik';
+import { Form, Field } from 'formik';
 
 
 export const StyledForm = styled(Form)`
