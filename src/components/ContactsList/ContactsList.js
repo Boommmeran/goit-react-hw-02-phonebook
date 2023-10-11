@@ -10,7 +10,7 @@ export const ContactsList = ({ contacts, onDeleteContact }) => {
           name={name}
           number={number}
           id={id}
-          deleteContact={onDeleteContact}
+          deleteContact={() => onDeleteContact(id)}
         />
       ))}
     </StyledList>
